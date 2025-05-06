@@ -27,8 +27,13 @@ const competitors = [
   }
 ];
 
+import React from 'react';
+import FullReportApp from './FullReportApp';
+
 export default function FullReport() {
   return <FullReportApp />;
+}
+
           <TableHead>
             <TableRow>
               <TableCell>Name</TableCell>
