@@ -27,27 +27,8 @@ const competitors = [
   }
 ];
 
-const seoChecklist = [
-  { label: 'Unique meta title & description for every page', done: false },
-  { label: 'LocalBusiness/MedicalBusiness schema markup', done: false },
-  { label: 'Dedicated landing pages for each major service', done: false },
-  { label: 'Google reviews/testimonials widget', done: false },
-  { label: 'Internal linking between services, team, testimonials', done: false },
-  { label: 'Optimized images and page speed', done: true },
-  { label: 'Content depth (FAQs, before/after galleries)', done: false },
-];
-
 export default function FullReport() {
-  return (
-    <Box sx={{ mt: 4 }}>
-      <Typography variant="h4" fontWeight={700} gutterBottom>Full Competitive & SEO Report</Typography>
-      <Typography variant="subtitle1" gutterBottom>
-        This report summarizes the competitive landscape for MedSpas in Palm Beach and provides actionable SEO recommendations for Pure Skin Palm Beach.
-      </Typography>
-      <Divider sx={{ my: 2 }} />
-      <Typography variant="h6" fontWeight={600} gutterBottom>Top Competitors</Typography>
-      <TableContainer component={Paper} sx={{ mb: 3 }}>
-        <Table>
+  return <FullReportApp />;
           <TableHead>
             <TableRow>
               <TableCell>Name</TableCell>
