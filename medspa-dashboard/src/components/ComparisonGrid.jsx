@@ -1,6 +1,6 @@
 import React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
-import { useMedSpaData } from '../hooks/useMedSpaData';
+import useMedSpaData from '../hooks/useMedSpaData';
 
 const columns = [
   { field: 'treatment', headerName: 'Treatment', width: 200 },
