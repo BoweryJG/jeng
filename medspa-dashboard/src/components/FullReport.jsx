@@ -27,7 +27,6 @@ const competitors = [
   }
 ];
 
-import React from 'react';
 import FullReportApp from './FullReportApp';
 
 export default function FullReport() {
