@@ -1,33 +1,4 @@
 import React from 'react';
-import { Box, Typography, Card, CardContent, Link, List, ListItem, ListItemIcon, ListItemText, Divider, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Chip } from '@mui/material';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import WarningAmberIcon from '@mui/icons-material/WarningAmber';
-
-const competitors = [
-  {
-    name: 'MD Beauty Labs',
-    website: 'https://mdbeautylabs.com/',
-    services: ['Botox', 'Fillers', 'RF Microneedling', 'Facials', 'Laser Skin Rejuvenation'],
-    seoScore: 88,
-    notes: 'Extensive service pages, strong local SEO.'
-  },
-  {
-    name: 'The Garden Medical Spa',
-    website: 'https://thegardenmedspa.com/',
-    services: ['Botox', 'Fillers', 'Laser Hair Removal', 'Facials', 'Radiofrequency Skin Tightening'],
-    seoScore: 82,
-    notes: 'Good use of landing pages, some schema markup.'
-  },
-  {
-    name: 'Pure Skin Palm Beach',
-    website: 'https://www.pureskinpalmbeach.com/',
-    services: ['Botox', 'Fillers', 'RF Microneedling'],
-    seoScore: 68,
-    notes: 'Strong team bios, needs more service pages and SEO enhancements.'
-  }
-];
-
-import React from 'react';
 import FullReportApp from './FullReportApp';
 
 export default function FullReport() {
